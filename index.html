@@ -9,8 +9,10 @@
 </head>
 
 <body>
-  <h1 id="level-title">Press A Key to Start</h1>
+  <h1 id="level-title">Press Start to begin</h1>
+  <div id="main">
   <div class="container">
+    <div type="button" id="start-button">Start</div>
     <div class="row">
 
       <div type="button" id="green" class="btn green">
@@ -20,18 +22,29 @@
       <div type="button" id="red" class="btn red">
 
       </div>
-    </div>
-
-    <div class="row">
-
+      
       <div type="button" id="yellow" class="btn yellow">
 
       </div>
       <div type="button" id="blue" class="btn blue">
-
       </div>
-
     </div>
+</div>
+    <h2>Rules</h2>
+    <ul>
+      <li>Simon will light up one of the four colors and play a corresponding tone.</li>
+      <li>After Simon finishes the sequence, your task is to repeat the exact sequence by pressing the colored buttons in the same order.</li>
+      <li>If you press the wrong color or get the sequence wrong, Simon will make a distinctive "error" sound.</li>
+
+    </ul>
+  
+
+    
+
+
+      
+
+  
 
   </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
